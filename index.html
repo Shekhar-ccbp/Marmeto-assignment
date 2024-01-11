@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="bg-container">
+      <h1 class="heading">SELECT YOUR CHOICE</h1>
+      <div class="tabs-container">
+        <button id="menTab" class="tab-item" onclick="displayProducts('Men')">
+          Men
+        </button>
+        <button
+          id="womenTab"
+          class="tab-item"
+          onclick="displayProducts('Women')"
+        >
+          Women
+        </button>
+        <button id="kidsTab" class="tab-item" onclick="displayProducts('Kids')">
+          Kids
+        </button>
+      </div>
+      <div id="productsContainer"></div>
+    </div>
+  </body>
+</html>
